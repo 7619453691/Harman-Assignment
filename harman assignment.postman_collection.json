@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "e79cc9ba-4cc1-48e8-bd1a-6e584db04e2e",
+		"name": "harman assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/v1/avengers/allCharacters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/avengers/allCharacters",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"avengers",
+						"allCharacters"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/avengers/getCharacterPower/Vision",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/avengers/getCharacterPower/Vision",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"avengers",
+						"getCharacterPower",
+						"Vision"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
